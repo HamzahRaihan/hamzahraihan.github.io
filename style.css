@@ -1,0 +1,124 @@
+@font-face {
+    font-family: quintabold;
+    src: url(font/BwQuintaPro-Bold.otf);
+}
+
+@font-face {
+    font-family: quintareg;
+    src: url(font/bwquintapro-light.otf);
+}
+
+* {
+    font-family: quintareg;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/—Pngtree—dark\ vector\ abstract\ background_1159556.png");
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("img/gambarkampus.png");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("img/bannercontact.png");
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 79px;
+}
+
+.parallax2 h1 {
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 79px;
+}
+
+.kemampuan {
+    background-color: rgb(20, 41, 70);
+}
+
+.container-kemampuan {
+    font-family: quintareg;
+    padding-bottom: 90px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+.container .row {
+    color: #fff;
+}
+
+.container .ts-title {
+    color: white;
+    padding-top: 90px;
+}
+
+.container .col-md-6 {
+    color: white;
+    padding-top: 90px;
+    text-align: justify;
+}
+
+.ts-column-count-2 {
+    column-count: 2;
+}
+
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+input {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.form-label .form-control {
+    padding-left: 50px;
+}
+
+.parallax3 .ts-title .display-5 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
